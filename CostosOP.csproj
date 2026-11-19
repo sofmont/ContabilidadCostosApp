@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!--
+    Sistema de Contabilidad de Costos por Órdenes de Producción
+    Proyecto Windows Forms (.NET 8). Todo el UI está construido en código,
+    por lo que no hay archivos .Designer.cs ni .resx que puedan corromperse.
+    Para .NET Framework 4.8 cambie TargetFramework a net48 (el código es compatible con C# 7.3).
+  -->
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <RootNamespace>CostosOP</RootNamespace>
+    <AssemblyName>CostosOP</AssemblyName>
+    <Product>Sistema de Contabilidad de Costos por Órdenes de Producción</Product>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
+
+</Project>
